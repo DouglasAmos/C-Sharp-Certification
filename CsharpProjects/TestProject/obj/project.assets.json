@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/douglasamos/workspace/C-Sharp Certificate/CsharpProjects/TestProject/TestProject.csproj",
+      "projectUniqueName": "/Users/douglasamos/workspace/C-Sharp-Certification/CsharpProjects/TestProject/TestProject.csproj",
       "projectName": "TestProject",
-      "projectPath": "/Users/douglasamos/workspace/C-Sharp Certificate/CsharpProjects/TestProject/TestProject.csproj",
+      "projectPath": "/Users/douglasamos/workspace/C-Sharp-Certification/CsharpProjects/TestProject/TestProject.csproj",
       "packagesPath": "/Users/douglasamos/.nuget/packages/",
-      "outputPath": "/Users/douglasamos/workspace/C-Sharp Certificate/CsharpProjects/TestProject/obj/",
+      "outputPath": "/Users/douglasamos/workspace/C-Sharp-Certification/CsharpProjects/TestProject/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/douglasamos/.nuget/NuGet/NuGet.Config"

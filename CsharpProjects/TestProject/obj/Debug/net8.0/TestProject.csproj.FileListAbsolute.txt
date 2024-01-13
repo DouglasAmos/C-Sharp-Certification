@@ -12,3 +12,18 @@
 /Users/douglasamos/workspace/C-Sharp Certificate/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.pdb
 /Users/douglasamos/workspace/C-Sharp Certificate/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.genruntimeconfig.cache
 /Users/douglasamos/workspace/C-Sharp Certificate/CsharpProjects/TestProject/obj/Debug/net8.0/ref/TestProject.dll
+/Users/douglasamos/workspace/C-Sharp-Certification/CsharpProjects/TestProject/bin/Debug/net8.0/TestProject
+/Users/douglasamos/workspace/C-Sharp-Certification/CsharpProjects/TestProject/bin/Debug/net8.0/TestProject.deps.json
+/Users/douglasamos/workspace/C-Sharp-Certification/CsharpProjects/TestProject/bin/Debug/net8.0/TestProject.runtimeconfig.json
+/Users/douglasamos/workspace/C-Sharp-Certification/CsharpProjects/TestProject/bin/Debug/net8.0/TestProject.dll
+/Users/douglasamos/workspace/C-Sharp-Certification/CsharpProjects/TestProject/bin/Debug/net8.0/TestProject.pdb
+/Users/douglasamos/workspace/C-Sharp-Certification/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/douglasamos/workspace/C-Sharp-Certification/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.AssemblyInfoInputs.cache
+/Users/douglasamos/workspace/C-Sharp-Certification/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.AssemblyInfo.cs
+/Users/douglasamos/workspace/C-Sharp-Certification/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.csproj.CoreCompileInputs.cache
+/Users/douglasamos/workspace/C-Sharp-Certification/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.sourcelink.json
+/Users/douglasamos/workspace/C-Sharp-Certification/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.dll
+/Users/douglasamos/workspace/C-Sharp-Certification/CsharpProjects/TestProject/obj/Debug/net8.0/refint/TestProject.dll
+/Users/douglasamos/workspace/C-Sharp-Certification/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.pdb
+/Users/douglasamos/workspace/C-Sharp-Certification/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.genruntimeconfig.cache
+/Users/douglasamos/workspace/C-Sharp-Certification/CsharpProjects/TestProject/obj/Debug/net8.0/ref/TestProject.dll
