@@ -33,7 +33,7 @@ string currentStudentLetterGrade = "";
 
 // display the header row for scores/grades
 Console.Clear();
-Console.WriteLine("Student\t\tGrade\tLetter Grade\n");
+Console.WriteLine("Student\t\tExam Score\tOverall Grade\tExtra Credit\n");
 
 /*
 The outer foreach loop is used to:
@@ -59,11 +59,24 @@ foreach (string name in studentNames)
     else if (currentStudent == "Logan")
         studentScores = loganScores;
 
+
+    int gradedAssignments = 0;
+    int gradedExtraCreditAssignments = 0;
+
+    int sumExamScores = 0;
+    int sumExtraCreditScores = 0;
+
+    decimal currentStudentGrade = 0;
+    decimal currentStudentExamScore = 0;
+    decimal currentStudentExtraCreditScore = 0;
+
+/*
     int sumAssignmentScores = 0;
 
     decimal currentStudentGrade = 0;
 
     int gradedAssignments = 0;
+    */
 
     /* 
     the inner foreach loop sums assignment scores
@@ -74,13 +87,19 @@ foreach (string name in studentNames)
         gradedAssignments += 1;
 
         if (gradedAssignments <= examAssignments)
-            sumAssignmentScores += score;
-
+        {
+            sumExamScores += score;
+        }
         else
-            sumAssignmentScores += score / 10;
+        {
+            gradedExtraCreditAssignments += 1;
+            sumExtraCreditScores += score;
+        }
     }
 
-    currentStudentGrade = (decimal)(sumAssignmentScores) / examAssignments;
+    currentStudentExamScore = (decimal)(sumExamScores) / examAssignments;
+    currentStudentExtraCreditScore = (decimal)(sumExtraCreditScores) / gradedExtraCreditAssignments;
+    currentStudentGrade = (decimal)((decimal)sumExamScores + ((decimal)sumExtraCreditScores / 10)) / examAssignments;
 
     if (currentStudentGrade >= 97)
         currentStudentLetterGrade = "A+";
@@ -124,7 +143,7 @@ foreach (string name in studentNames)
     // Student         Grade
     // Sophia:         92.2    A-
     
-    Console.WriteLine($"{currentStudent}\t\t{currentStudentGrade}\t{currentStudentLetterGrade}");
+    Console.WriteLine($"{currentStudent}\t\t{currentStudentExamScore}\t\t{currentStudentGrade}\t{currentStudentLetterGrade}\t{currentStudentExtraCreditScore} ({(((decimal)sumExtraCreditScores / 10) / examAssignments)} pts)");
 }
 
 // required for running in VS Code (keeps the Output windows open to view results)
