@@ -9,11 +9,18 @@ public class ProgramMain
         BooleanEx booleanInstance = new BooleanEx();
         CoinFlip coinFlip = new CoinFlip();
         BooleanChallenge booleanChallenge = new BooleanChallenge();
+        CodeBlock codeBlock = new CodeBlock();
+        CodeBlocksChallenge codeBlocksChallenge = new CodeBlocksChallenge();
+        
 
 
         //booleanInstance.booleanMethod();
         //coinFlip.coinFlipMethod();
-        booleanChallenge.BCMethod();
+        //booleanChallenge.BCMethod();
+        //codeBlock.CodeBlocksMethod();
+        //codeBlock.CodeBlocksExercise();
+        codeBlocksChallenge.CBChallenge();
+
 
 
 
