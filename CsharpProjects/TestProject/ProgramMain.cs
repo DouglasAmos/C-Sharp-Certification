@@ -11,6 +11,8 @@ public class ProgramMain
         BooleanChallenge booleanChallenge = new BooleanChallenge();
         CodeBlock codeBlock = new CodeBlock();
         CodeBlocksChallenge codeBlocksChallenge = new CodeBlocksChallenge();
+        SwitchStatementsEx switchStatementsEx = new SwitchStatementsEx();
+
         
 
 
@@ -19,7 +21,8 @@ public class ProgramMain
         //booleanChallenge.BCMethod();
         //codeBlock.CodeBlocksMethod();
         //codeBlock.CodeBlocksExercise();
-        codeBlocksChallenge.CBChallenge();
+        //codeBlocksChallenge.CBChallenge();
+        switchStatementsEx.SwitchPractice();
 
 
 
