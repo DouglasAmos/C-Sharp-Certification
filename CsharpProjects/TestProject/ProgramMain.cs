@@ -12,6 +12,8 @@ public class ProgramMain
         CodeBlock codeBlock = new CodeBlock();
         CodeBlocksChallenge codeBlocksChallenge = new CodeBlocksChallenge();
         SwitchStatementsEx switchStatementsEx = new SwitchStatementsEx();
+        SSChallange sSChallange = new SSChallange();
+
 
         
 
@@ -22,7 +24,8 @@ public class ProgramMain
         //codeBlock.CodeBlocksMethod();
         //codeBlock.CodeBlocksExercise();
         //codeBlocksChallenge.CBChallenge();
-        switchStatementsEx.SwitchPractice();
+        //switchStatementsEx.SwitchPractice();
+        sSChallange.SwitchChallenge();
 
 
 
