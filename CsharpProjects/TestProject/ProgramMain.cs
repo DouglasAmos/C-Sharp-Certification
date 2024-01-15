@@ -8,9 +8,12 @@ public class ProgramMain
     {
         BooleanEx booleanInstance = new BooleanEx();
         CoinFlip coinFlip = new CoinFlip();
+        BooleanChallenge booleanChallenge = new BooleanChallenge();
+
 
         //booleanInstance.booleanMethod();
         //coinFlip.coinFlipMethod();
+        booleanChallenge.BCMethod();
 
 
 
