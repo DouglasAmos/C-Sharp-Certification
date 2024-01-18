@@ -13,9 +13,9 @@ public class ProgramMain
         CodeBlocksChallenge codeBlocksChallenge = new CodeBlocksChallenge();
         SwitchStatementsEx switchStatementsEx = new SwitchStatementsEx();
         SSChallange sSChallange = new SSChallange();
+        ForLoop forLoop = new();
+        FizzBuzzChallenge fizzBuzzChallenge = new();
 
-
-        
 
 
         //booleanInstance.booleanMethod();
@@ -25,7 +25,12 @@ public class ProgramMain
         //codeBlock.CodeBlocksExercise();
         //codeBlocksChallenge.CBChallenge();
         //switchStatementsEx.SwitchPractice();
-        sSChallange.SwitchChallenge();
+        //sSChallange.SwitchChallenge();
+        //ForLoop.ForLoopPracticeNums();
+        //ForLoop.ForLoopPracticeWords();
+        //ForLoop.ForLoopPracticeChange();
+        fizzBuzzChallenge.FizzBuzz();
+        
 
 
 
