@@ -15,6 +15,8 @@ public class ProgramMain
         SSChallange sSChallange = new SSChallange();
         ForLoop forLoop = new();
         FizzBuzzChallenge fizzBuzzChallenge = new();
+        DoWhileStatementsEx doWhileStatementsEx = new();
+
 
 
 
@@ -29,7 +31,9 @@ public class ProgramMain
         //ForLoop.ForLoopPracticeNums();
         //ForLoop.ForLoopPracticeWords();
         //ForLoop.ForLoopPracticeChange();
-        fizzBuzzChallenge.FizzBuzz();
+        //fizzBuzzChallenge.FizzBuzz();
+        //doWhileStatementsEx.DWPractice();
+        doWhileStatementsEx.DWPracticeThree();
         
 
 
