@@ -16,6 +16,7 @@ public class ProgramMain
         ForLoop forLoop = new();
         FizzBuzzChallenge fizzBuzzChallenge = new();
         DoWhileStatementsEx doWhileStatementsEx = new();
+        DoWhileStatementsCodeChallenges doWhileStatementsCodeChallenges = new();
 
 
 
@@ -33,7 +34,13 @@ public class ProgramMain
         //ForLoop.ForLoopPracticeChange();
         //fizzBuzzChallenge.FizzBuzz();
         //doWhileStatementsEx.DWPractice();
-        doWhileStatementsEx.DWPracticeThree();
+        //doWhileStatementsEx.DWPracticeThree();
+
+        //doWhileStatementsEx.DWChallengeGame();
+
+        doWhileStatementsCodeChallenges.CodeProject1();
+
+
         
 
 
