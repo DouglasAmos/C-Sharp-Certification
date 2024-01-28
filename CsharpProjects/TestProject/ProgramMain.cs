@@ -38,7 +38,9 @@ public class ProgramMain
 
         //doWhileStatementsEx.DWChallengeGame();
 
-        doWhileStatementsCodeChallenges.CodeProject1();
+        //doWhileStatementsCodeChallenges.CodeProject1();
+
+        doWhileStatementsCodeChallenges.CodeProject3();
 
 
         
