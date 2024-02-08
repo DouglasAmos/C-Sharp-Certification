@@ -18,6 +18,7 @@ string[,] ourAnimals = new string[maxPets, 6];
 
 // create some initial ourAnimals array entries
 
+//figure out why you needed to declare i here
 int i = 0;
 
 switch (i)
