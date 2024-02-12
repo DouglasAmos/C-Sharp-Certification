@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oLOkcGk4X2PXfb+SzrxbgSUJu0k8UG5Ndz/1LoHoHYLCluWQRDHTGII7c02GxsJh7KAu5jaQRXJj2P1+oc+KNg==",
+  "dgSpecHash": "9VD1Y0dBMugz9o1hWKgBBC1QtiPQAOxSWcQPvPEJ4/11SefVGfaeDcM3PyPwH3TQhdncIPXenE28U+g8+6cujQ==",
   "success": true,
-  "projectFilePath": "/Users/douglasamos/workspace/C-Sharp-Certification/CsharpProjects/TestProject/TestProject.csproj",
+  "projectFilePath": "C:\\Users\\dougl\\workspace\\C-Sharp-Certification\\CsharpProjects\\TestProject\\TestProject.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

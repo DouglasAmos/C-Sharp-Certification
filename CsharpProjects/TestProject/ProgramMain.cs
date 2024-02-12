@@ -17,6 +17,7 @@ public class ProgramMain
         FizzBuzzChallenge fizzBuzzChallenge = new();
         DoWhileStatementsEx doWhileStatementsEx = new();
         DoWhileStatementsCodeChallenges doWhileStatementsCodeChallenges = new();
+        DataTypes dataTypes = new();
 
 
 
@@ -39,8 +40,9 @@ public class ProgramMain
         //doWhileStatementsEx.DWChallengeGame();
 
         //doWhileStatementsCodeChallenges.CodeProject1();
+       // doWhileStatementsCodeChallenges.CodeProject3();
 
-        doWhileStatementsCodeChallenges.CodeProject3();
+       dataTypes.DataTypeMethods();
 
 
         

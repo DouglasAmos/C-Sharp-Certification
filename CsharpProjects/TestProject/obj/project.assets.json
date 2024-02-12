@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/Users/douglasamos/.nuget/packages/": {}
+    "C:\\Users\\dougl\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/douglasamos/workspace/C-Sharp-Certification/CsharpProjects/TestProject/TestProject.csproj",
+      "projectUniqueName": "C:\\Users\\dougl\\workspace\\C-Sharp-Certification\\CsharpProjects\\TestProject\\TestProject.csproj",
       "projectName": "TestProject",
-      "projectPath": "/Users/douglasamos/workspace/C-Sharp-Certification/CsharpProjects/TestProject/TestProject.csproj",
-      "packagesPath": "/Users/douglasamos/.nuget/packages/",
-      "outputPath": "/Users/douglasamos/workspace/C-Sharp-Certification/CsharpProjects/TestProject/obj/",
+      "projectPath": "C:\\Users\\dougl\\workspace\\C-Sharp-Certification\\CsharpProjects\\TestProject\\TestProject.csproj",
+      "packagesPath": "C:\\Users\\dougl\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dougl\\workspace\\C-Sharp-Certification\\CsharpProjects\\TestProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/douglasamos/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\dougl\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
