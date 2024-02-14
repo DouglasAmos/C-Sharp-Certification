@@ -18,6 +18,7 @@ public class ProgramMain
         DoWhileStatementsEx doWhileStatementsEx = new();
         DoWhileStatementsCodeChallenges doWhileStatementsCodeChallenges = new();
         DataTypes dataTypes = new();
+        TypeConversionPractice typeConversionPractice = new();
 
 
 
@@ -41,8 +42,9 @@ public class ProgramMain
 
         //doWhileStatementsCodeChallenges.CodeProject1();
        // doWhileStatementsCodeChallenges.CodeProject3();
+        // dataTypes.DataTypeMethods();
 
-       dataTypes.DataTypeMethods();
+        typeConversionPractice.TypeConvo();
 
 
         
