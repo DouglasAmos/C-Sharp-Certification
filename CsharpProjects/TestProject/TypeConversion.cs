@@ -5,7 +5,7 @@ using System.Xml.XPath;
 public class TypeConversionPractice
 {
 
-    public void TypeConvo()
+    public void TypeConvert()
     {
         /*
         int first = 2;

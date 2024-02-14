@@ -44,7 +44,7 @@ public class ProgramMain
        // doWhileStatementsCodeChallenges.CodeProject3();
         // dataTypes.DataTypeMethods();
 
-        typeConversionPractice.TypeConvo();
+        typeConversionPractice.TypeConvert();
 
 
         
