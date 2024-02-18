@@ -60,11 +60,16 @@ public class TypeConversionPractice
         Console.WriteLine(result);
         */
 
+        /*
         int value = (int)1.5m;
         Console.WriteLine(value);
 
         int value2 = Convert.ToInt32(1.5m);
         Console.WriteLine(value2);
+        */
+
+        
+
         
 
 
