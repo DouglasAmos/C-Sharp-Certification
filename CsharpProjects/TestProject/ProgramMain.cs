@@ -19,6 +19,7 @@ public class ProgramMain
         DoWhileStatementsCodeChallenges doWhileStatementsCodeChallenges = new();
         DataTypes dataTypes = new();
         TypeConversionPractice typeConversionPractice = new();
+        ArrayOperations arrayOperations = new();
 
 
 
@@ -37,14 +38,15 @@ public class ProgramMain
         //fizzBuzzChallenge.FizzBuzz();
         //doWhileStatementsEx.DWPractice();
         //doWhileStatementsEx.DWPracticeThree();
-
         //doWhileStatementsEx.DWChallengeGame();
-
         //doWhileStatementsCodeChallenges.CodeProject1();
-       // doWhileStatementsCodeChallenges.CodeProject3();
+        // doWhileStatementsCodeChallenges.CodeProject3();
         // dataTypes.DataTypeMethods();
+        //typeConversionPractice.TypeConvert();
 
-        typeConversionPractice.TypeConvert();
+        arrayOperations.ArrayOperator();
+
+
 
 
         
