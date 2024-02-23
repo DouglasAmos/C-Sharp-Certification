@@ -21,6 +21,7 @@ public class ProgramMain
         TypeConversionPractice typeConversionPractice = new();
         ArrayOperations arrayOperations = new();
         StringFormatting stringFormatting = new();
+        ModifyContent modifyContent = new();
 
 
 
@@ -45,7 +46,8 @@ public class ProgramMain
         // dataTypes.DataTypeMethods();
         //typeConversionPractice.TypeConvert();
         //arrayOperations.ArrayOperator();
-        stringFormatting.StringFormattingMethod();
+        //stringFormatting.StringFormattingMethod();
+        modifyContent.ModifyContentMethod();
 
 
 
