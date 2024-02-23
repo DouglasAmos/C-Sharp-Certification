@@ -20,6 +20,7 @@ public class ProgramMain
         DataTypes dataTypes = new();
         TypeConversionPractice typeConversionPractice = new();
         ArrayOperations arrayOperations = new();
+        StringFormatting stringFormatting = new();
 
 
 
@@ -43,8 +44,8 @@ public class ProgramMain
         // doWhileStatementsCodeChallenges.CodeProject3();
         // dataTypes.DataTypeMethods();
         //typeConversionPractice.TypeConvert();
-
-        arrayOperations.ArrayOperator();
+        //arrayOperations.ArrayOperator();
+        stringFormatting.StringFormattingMethod();
 
 
 
