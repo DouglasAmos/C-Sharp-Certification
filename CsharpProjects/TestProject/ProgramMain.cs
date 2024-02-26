@@ -22,6 +22,7 @@ public class ProgramMain
         ArrayOperations arrayOperations = new();
         StringFormatting stringFormatting = new();
         ModifyContent modifyContent = new();
+        FirstMethods firstMethods = new();
 
 
 
@@ -42,12 +43,14 @@ public class ProgramMain
         //doWhileStatementsEx.DWPracticeThree();
         //doWhileStatementsEx.DWChallengeGame();
         //doWhileStatementsCodeChallenges.CodeProject1();
-        // doWhileStatementsCodeChallenges.CodeProject3();
-        // dataTypes.DataTypeMethods();
+        //doWhileStatementsCodeChallenges.CodeProject3();
+        //dataTypes.DataTypeMethods();
         //typeConversionPractice.TypeConvert();
         //arrayOperations.ArrayOperator();
         //stringFormatting.StringFormattingMethod();
-        modifyContent.ModifyContentMethod();
+        //modifyContent.ModifyContentMethod();
+        Console.WriteLine("Generating random numbers:");
+        firstMethods.DisplayRandomNumbers();
 
 
 
