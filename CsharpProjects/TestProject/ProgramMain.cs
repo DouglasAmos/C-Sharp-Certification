@@ -23,6 +23,7 @@ public class ProgramMain
         StringFormatting stringFormatting = new();
         ModifyContent modifyContent = new();
         FirstMethods firstMethods = new();
+        MethodChallenge methodChallenge = new();
 
 
 
@@ -49,8 +50,9 @@ public class ProgramMain
         //arrayOperations.ArrayOperator();
         //stringFormatting.StringFormattingMethod();
         //modifyContent.ModifyContentMethod();
-        Console.WriteLine("Generating random numbers:");
-        firstMethods.DisplayRandomNumbers();
+        //firstMethods.DisplayRandomNumbers();
+        methodChallenge.FortuneMethod();
+
 
 
 
