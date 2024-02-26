@@ -24,6 +24,8 @@ public class ProgramMain
         ModifyContent modifyContent = new();
         FirstMethods firstMethods = new();
         MethodChallenge methodChallenge = new();
+        Parameters parameters = new();
+        ParametersChallenge parametersChallenge = new();
 
 
 
@@ -51,7 +53,9 @@ public class ProgramMain
         //stringFormatting.StringFormattingMethod();
         //modifyContent.ModifyContentMethod();
         //firstMethods.DisplayRandomNumbers();
-        methodChallenge.FortuneMethod();
+        //methodChallenge.FortuneMethod();
+        //parameters.ParameterMethod();
+        parametersChallenge.ParamChallengeMethod();
 
 
 
