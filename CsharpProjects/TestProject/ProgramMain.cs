@@ -26,6 +26,7 @@ public class ProgramMain
         MethodChallenge methodChallenge = new();
         Parameters parameters = new();
         ParametersChallenge parametersChallenge = new();
+        ReturnMethods returnMethods = new();
 
 
 
@@ -55,7 +56,9 @@ public class ProgramMain
         //firstMethods.DisplayRandomNumbers();
         //methodChallenge.FortuneMethod();
         //parameters.ParameterMethod();
-        parametersChallenge.ParamChallengeMethod();
+        //parametersChallenge.ParamChallengeMethod();
+        returnMethods.ReturnMethod();
+
 
 
 
