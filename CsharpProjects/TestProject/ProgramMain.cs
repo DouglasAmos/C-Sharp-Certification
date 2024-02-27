@@ -27,6 +27,7 @@ public class ProgramMain
         Parameters parameters = new();
         ParametersChallenge parametersChallenge = new();
         ReturnMethods returnMethods = new();
+        ReturnMethodsChallenge returnMethodsChallenge = new();
 
 
 
@@ -57,7 +58,8 @@ public class ProgramMain
         //methodChallenge.FortuneMethod();
         //parameters.ParameterMethod();
         //parametersChallenge.ParamChallengeMethod();
-        returnMethods.ReturnMethod();
+        //returnMethods.ReturnMethod();
+        returnMethodsChallenge.RMCMethod();
 
 
 
