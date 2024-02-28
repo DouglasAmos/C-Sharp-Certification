@@ -15,10 +15,11 @@ public class ReturnMethodsChallenge
             PlayGame();
         }
 
+
         bool ShouldPlay()
         {
             
-            string response = Console.ReadLine();
+            string response = " "; //Console.ReadLine();
             if (response != null)
             {
               return response.ToLower().Equals("y");  
