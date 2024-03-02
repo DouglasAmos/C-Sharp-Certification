@@ -6,9 +6,14 @@ int height = Console.WindowHeight - 1;
 int width = Console.WindowWidth - 5;
 bool shouldExit = false;
 
+
+// New stuff
+
+int foodCount = 0;
+
 // Console position of the player
 int playerX = 0;
-int playerY = 0;
+int playerY = 2;
 
 // Console position of the food
 int foodX = 0;
@@ -37,10 +42,27 @@ while (!shouldExit)
     }
     else
     {
+        if (PlayerIsFaster()) 
+        {
+            Move(1, false);
+        } 
+        else if (PlayerIsSick()) 
+        {
+            FreezePlayer();
+        } else 
+        {
+            Move(otherKeysExit: false);
+        }
+        if (GotFood())
+        {
+            ChangePlayer();
+            ShowFood();
+            foodCount++;
+            Console.Write(foodCount);
+        }
 
     }
 
-    Move();
 }
 
 // Returns true if the Terminal was resized 
@@ -67,6 +89,7 @@ void ShowFood()
 bool GotFood()
 {
     return playerY == foodY && playerX == foodX;
+    
 }
 
 // Changes the player to match the food consumed
@@ -77,6 +100,12 @@ void ChangePlayer()
     Console.Write(player);
 }
 
+bool PlayerIsFaster() 
+{
+    return player.Equals(states[1]);
+}
+
+
 bool PlayerIsSick()
 {
     return player.Equals(states[2]);
@@ -85,7 +114,7 @@ bool PlayerIsSick()
 // Temporarily stops the player from moving
 void FreezePlayer() 
 {
-    System.Threading.Thread.Sleep(1000);
+    System.Threading.Thread.Sleep(4000);
     player = states[0];
 }
 
@@ -136,8 +165,12 @@ void Move(int speed = 1, bool otherKeysExit = false)
 // Clears the console, displays the food and player
 void InitializeGame() 
 {
-    Console.Clear();
+    Console.Clear();  
+
+    Console.WriteLine($"Score: {foodCount}"); 
     ShowFood();
-    Console.SetCursorPosition(0, 0);
+    
+   
+    Console.SetCursorPosition(0, 2);
     Console.Write(player);
 }
